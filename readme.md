@@ -6,7 +6,7 @@ Python and virtualenv must be installed first. Then run
 
 ```bash
 virtualenv venv
-source venv/bin/acticate
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 If you get an error during the last command, that may be caused by the specified versions of pip packages not being available for your platform. In that case, try removing the specific version numbers from the [requirements.txt](requirements.txt).
